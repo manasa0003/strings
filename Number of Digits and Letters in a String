@@ -1,0 +1,13 @@
+Write a Python Program to calculate the number of digits and letters in a string. Problem Description The program takes a string and calculates the number of digits and letters in a string. Problem Solution 1. Take a string from the user and store it in a variable. 2. Initialize the two count variables to 0. 3. Use a for loop to traverse through the characters in the string and increment the first count variable each time a digit is encountered and increment the second count variable each time a character is encountered. 4. Print the total count of both the variables. 5. Exit.
+
+
+str=input()
+ch=0
+di=0
+for i in str:
+    if i>='0' and i<='9':
+        di=di+1
+    else:
+        ch=ch+1
+print("Characters=",ch)
+print("Digits=",di)
