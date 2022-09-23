@@ -1,0 +1,9 @@
+Write a Python Program to remove the nth index character from a non-empty string.
+
+str=input()
+n=int(input())
+s=''
+for i in range(0,len(str)):
+    if i!=n:
+        s=s+str[i]
+print(s)
