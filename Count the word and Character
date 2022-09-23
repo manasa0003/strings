@@ -1,0 +1,6 @@
+Write a  Python Program to calculate the number of words and characters present in a string.
+
+str=input()
+count=len(str.split())
+print(count)
+print(len(str))
